@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="62f2cd2b-e2ad-4548-a435-80d87e36795c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb02/embeddable/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb02/embeddable/RunnerFetch02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb02/embeddable/RunnerSave02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb02/embeddable/Student02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb03/onetoone/CustomResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb03/onetoone/Diary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb03/onetoone/RunnerFetch03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb03/onetoone/RunnerSave03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb03/onetoone/Student03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb04/manytoone/RunnerFetch04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb04/manytoone/RunnerSave04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb04/manytoone/Student04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb04/manytoone/University.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb05/onetomany/Book05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb05/onetomany/RunnerFetch05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb05/onetomany/RunnerSave05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb05/onetomany/Student05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb06/bi_onetomany/Book06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb06/bi_onetomany/RunnerFetch06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb06/bi_onetomany/RunnerSave06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb06/bi_onetomany/Student06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb07/manytomany/Book07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb07/manytomany/BookType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb07/manytomany/RunnerFetch07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb07/manytomany/RunnerSave07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb07/manytomany/Student07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb08/fetchtypes/Book08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb08/fetchtypes/RunnerFetch08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb08/fetchtypes/RunnerSave08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb08/fetchtypes/Student08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enum_types/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enum_types/TransactionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enum_types/TransactionTypeConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hibernate/RunnerFetch01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hibernate/RunnerSave01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hibernate/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/serialization_deserialization/Serialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/serialization_deserialization/neetcode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2DnYFBw75EI5l0OkAKOaLnYRbH6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/CEM/OneDrive/Masaüstü/Hibernate1/src/main/java/com/hb08/fetchtypes"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\CEM\OneDrive\Masaüstü\Hibernate1\src\main\java\com\hb08\fetchtypes" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hb07.manytomany" />
+      <recent name="com.hb06.bi_onetomany" />
+      <recent name="com.h05.onetomany" />
+      <recent name="com.hb04.manytoone" />
+      <recent name="com.hb02.embeddable" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.RunnerFetch08">
+    <configuration name="RunnerFetch07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hb07.manytomany.RunnerFetch07" />
+      <module name="Hibernate1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hb07.manytomany.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunnerFetch08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hb08.fetchtypes.RunnerFetch08" />
+      <module name="Hibernate1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hb08.fetchtypes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunnerSave07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hb07.manytomany.RunnerSave07" />
+      <module name="Hibernate1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hb07.manytomany.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunnerSave08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hb08.fetchtypes.RunnerSave08" />
+      <module name="Hibernate1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hb08.fetchtypes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="serialization_deserialization.neetcode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serialization_deserialization.neetcode" />
+      <module name="Hibernate1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RunnerFetch08" />
+        <item itemvalue="Application.RunnerSave08" />
+        <item itemvalue="Application.RunnerFetch07" />
+        <item itemvalue="Application.RunnerSave07" />
+        <item itemvalue="Application.serialization_deserialization.neetcode" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62f2cd2b-e2ad-4548-a435-80d87e36795c" name="Changes" comment="" />
+      <created>1661336212256</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661336212256</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:javax.persistence:javax.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate:hibernate-core" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
