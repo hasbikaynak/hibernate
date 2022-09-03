@@ -21,8 +21,11 @@ public class RunnerFetch07 {
         Transaction tx= session.beginTransaction();
 
 
-        Student07 student =  session.get(Student07.class,1001);
-        System.out.println(student);
+//        Student07 student =  session.get(Student07.class,1001);
+//        System.out.println(student);
+
+        Book07 book =  session.get(Book07.class,101);
+        System.out.println(book.getStudents());
 
         //
         //it makes data to write into database, makes data permanent

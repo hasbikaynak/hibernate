@@ -16,8 +16,6 @@ public class RunnerSave05 {
         student1.setName("John Coffee");
         student1.setGrade(34);
 
-
-
         Student05 student2 = new Student05();
         student2.setId(1002);
         student2.setName("Tony Stark");

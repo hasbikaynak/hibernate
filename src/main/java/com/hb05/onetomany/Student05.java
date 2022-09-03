@@ -21,13 +21,6 @@ public class Student05 {
 
 	private int grade;
 
-	public List<Book05> getBookList() {
-		return bookList;
-	}
-
-	public void setBookList(List<Book05> bookList) {
-		this.bookList = bookList;
-	}
 
 	@OneToMany
 	@JoinColumn // in order to avoid extra table
@@ -41,6 +34,14 @@ public class Student05 {
 				", grade=" + grade +
 				", bookList=" + bookList +
 				'}';
+	}
+
+	public List<Book05> getBookList() {
+		return bookList;
+	}
+
+	public void setBookList(List<Book05> bookList) {
+		this.bookList = bookList;
 	}
 
 	public int getId() {

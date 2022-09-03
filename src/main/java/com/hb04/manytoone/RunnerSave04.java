@@ -24,12 +24,15 @@ public class RunnerSave04 {
         Student04 student3 = new Student04();
         student3.setId(1003);
         student3.setName("James Heller");
-        student3.setGrade(52);
+        student3.setGrade(68);
+
+
 
 
         University university = new University();
         university.setId(1);
         university.setName("TPE Tech");
+
         student1.setUniversity(university);
         student2.setUniversity(university);
         student3.setUniversity(university);
@@ -42,11 +45,12 @@ public class RunnerSave04 {
 
         Transaction tx = session.beginTransaction();
 
-        session.save(university);
-        session.save(student1);
-        session.save(student2);
-        session.save(student3);
+//        session.save(university);
+//        session.save(student1);
+//        session.save(student2);
+//        session.save(student3);
 
+//        session.update(student3);
 
         //it makes data to write into database, makes data parmanent //UOF -- unit of work
         tx.commit();

@@ -22,13 +22,7 @@ public class Student06 {
 
         private int grade;
 
-        public List<Book06> getBookList() {
-            return bookList;
-        }
 
-        public void setBookList(List<Book06> bookList) {
-            this.bookList = bookList;
-        }
 
         @OneToMany(mappedBy = "student",orphanRemoval = true) //by using that we can delete without any problem, otherwise it will complain that first you have to
         //all relations
@@ -44,6 +38,13 @@ public class Student06 {
                     '}';
         }
 
+    public List<Book06> getBookList() {
+        return bookList;
+    }
+
+    public void setBookList(List<Book06> bookList) {
+        this.bookList = bookList;
+    }
 
         public int getId() {
             return id;

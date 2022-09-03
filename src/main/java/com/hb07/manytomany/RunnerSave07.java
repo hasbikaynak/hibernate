@@ -54,6 +54,10 @@ public class RunnerSave07 {
         bookList3.add(book2);
         student3.setBookList(bookList3);
 
+        List<Student07> studentList =new ArrayList<>();
+        studentList.add(student1);
+        book1.setStudents(studentList);
+
 
 
 

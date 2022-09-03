@@ -1,6 +1,8 @@
 package serialization_deserialization;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.Locale;
 import java.util.OptionalInt;
 
@@ -14,6 +16,7 @@ public class neetcode {
 //        System.out.println(isPalindrome("A man, a plan, a canal: Panama"));
 //        System.out.println(maxProfit(new int[] {7,1,5,3,6,4}));
 //        findMax(new int[]{1, 6, 9, 3, 6, 1, 0});
+        System.out.println(Arrays.toString(twoSum(new int[]{2, 7, 11, 15}, 9)));
 
     }
 
@@ -87,6 +90,19 @@ public class neetcode {
 //        return min;
 //    }
 
+    public static int[] twoSum(int[] nums, int target) {
+        int[] arr = new int[2];
+
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i+1; j < nums.length ; j++) {
+                if (nums[i] + nums[j] == target) {
+                    arr[0] = i;
+                    arr[1] = j;
+                }
+            }
+        }
+        return arr;
+    }
 }
 
 

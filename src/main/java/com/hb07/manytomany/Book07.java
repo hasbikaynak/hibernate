@@ -20,6 +20,14 @@ public class Book07 {
     @ManyToMany(mappedBy = "books")
     private List<Student07> students=new ArrayList<>();
 
+    public List<Student07> getStudents() {
+        return students;
+    }
+
+    public void setStudents(List<Student07> students) {
+        this.students = students;
+    }
+
     public int getId() {
         return id;
     }
